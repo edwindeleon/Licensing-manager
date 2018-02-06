@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ALM Service</title>
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/bbf9d819b6.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/jqc-1.12.3/jszip-2.5.0/dt-1.10.16/b-1.4.2/b-html5-1.4.2/b-print-1.4.2/r-2.2.0/datatables.min.css"/>
+ 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs/jqc-1.12.3/jszip-2.5.0/dt-1.10.16/b-1.4.2/b-html5-1.4.2/b-print-1.4.2/r-2.2.0/datatables.min.js"></script>
+
+
+
+
+<link rel="stylesheet" href="http://tevenly.com/statics/css/ace-fonts.css" />
+<link rel="stylesheet" href="http://tevenly.com/statics/css/ace.css" class="ace-main-stylesheet" id="main-ace-style" />
+<script src="http://tevenly.com/statics/js/ace-extra.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <script type="text/javascript">  
+    jQuery(document).ready(function(){  
+        jQuery('li.dropdown').click(function () {  
+            jQuery('li.dropdown').not(this).find('ul').hide();  
+            jQuery(this).find('ul').toggle();  
+        });  
+     });  
+    </script>  
+    <script type="text/javascript">  
+        jQuery(document).ready(function(){
+          $('#usersTables').DataTable({
+        "pagingType": "full_numbers"
+    });
+        });
+     </script>
+  </head>
+  <body>
+    
+    <div id="root">
+
+    </div>
+
+    <script src="http://tevenly.com/statics/js/ace/elements.scroller.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/elements.colorpicker.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/elements.fileinput.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/elements.typeahead.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/elements.wysiwyg.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/elements.spinner.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/elements.treeview.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/elements.wizard.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/elements.aside.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.ajax-content.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.touch-drag.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.sidebar.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.sidebar-scroll-1.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.submenu-hover.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.widget-box.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.settings.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.settings-rtl.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.settings-skin.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.widget-on-reload.js"></script>
+    <script src="http://tevenly.com/statics/js/ace/ace.searchbox-autocomplete.js"></script>
+  </body>
+</html>
